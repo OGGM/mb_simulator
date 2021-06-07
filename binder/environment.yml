@@ -1,0 +1,31 @@
+name: oggm-simulator
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
+  - jupyter
+  - bokeh<2.3
+  - nbserverproxy
+  - tornado
+  - ipywidgets
+  - graphviz
+  - numpy
+  - scipy
+  - pandas
+  - shapely
+  - netcdf4
+  - configobj
+  - xarray
+  - pyviz_comms
+  - param
+  - holoviews=1.14.1
+  - hvplot
+  - panel=0.10.3
+  - parambokeh
+  - ipympl
+  - pip:
+    - joblib
+    - progressbar2
+    - git+https://github.com/OGGM/oggm.git
+    - jupyter-panel-proxy
