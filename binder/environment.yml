@@ -12,7 +12,7 @@ dependencies:
   - graphviz
   - numpy
   - scipy
-  - pandas
+  - pandas=1.2.4
   - shapely
   - netcdf4
   - configobj
