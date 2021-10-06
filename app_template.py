@@ -8,17 +8,13 @@ template = """
 
 <!-- goes in body -->
 {% block contents %}
-<div class="container-float">
-  <div class="row">
-    <div class="col">
+<app >
+  <div>
       {{ embed(roots.header) }}
-    </div>
   </div>
-  <div class="row">
-    <div class="col">
+  <menu_and_figures>
       {{ embed(roots.menu_and_figures) }}
-    </div>
-  </div>
-</div>
+  </menu_and_figures>
+</app>
 {% endblock %}
 """
