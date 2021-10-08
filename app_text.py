@@ -38,15 +38,29 @@ climate_tab_text = {
     # include new base climate names, do not forget to include file_suffix (base_climate_file_suffix)
     'base_climate_names':
         {
-            'en': ['Hintereisferner (Mid Latitudes)',
-                   'Lewis (Tropics)'],
-            'de': ['Hintereisferner (mittlere Breiten)',
-                   'Lewis (Tropen)'],
+            'en': ['Austre Broeggerbreen (Svalbard, polar)',  # RGI60-07.00504
+                   'Baltoro (Karakoram, continental)',        # RGI60-14.06794
+                   'Echaurren Norte (Andes, mediterranean)',  # RGI60-17.13715
+                   'Hintereisferner (Alps, continental)',     # RGI60-11.00897
+                   'Lewis (Mount Kenya, tropical)',           # RGI60-16.01638
+                   'Wolverine (Alaska, maritime)',            # RGI60-01.09162
+                  ],			
+            'de': ['Austre Broeggerbreen (Spitzbergen, polar)',
+                   'Baltoro (Karakoram, continental)',
+                   'Echaurren Norte (Anden, mediterran)',
+                   'Hintereisferner (Alpen, continental)',
+                   'Lewis (Mount Kenya, tropisch)',
+                   'Wolverine (Alaska, seeklima)',
+                  ],
         },
     # must be the same order as defined in base_climate_names
     'base_climate_file_suffix':
-        ['_HEF',
-         '_Lewis'
+        ['_Aus',
+         '_Bal',
+         '_Ech',
+         '_HEF',
+         '_Lew',
+         '_Wol',
         ],
     
     'y_start_slider_name':
