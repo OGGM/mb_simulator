@@ -65,19 +65,19 @@ climate_tab_text = {
     
     'y_start_slider_name':
         {
-            'en': 'Start of Period',
+            'en': 'Start of period',
             'de': 'Start der Periode',
         },
 
     'y_end_slider_name':
         {
-            'en': 'End of Preiod',
+            'en': 'End of period',
             'de': 'Ende der Periode',
         },
 
     'set_climate_button_name':
         {
-            'en': 'Set Climate',
+            'en': 'Set climate',
             'de': 'Klima festlegen',
         },
 }
@@ -86,27 +86,27 @@ mb_settings_tab_text = {
     # define the heading of the menu
     'heading':
         {
-            'en': 'MB Settings',
+            'en': 'MB settings',
             'de': 'MB Einst.'
         },
     'mu_slider_name':
         {
-            'en': 'Sensitivity Parameter (µ)',
+            'en': 'Sensitivity parameter (µ)',
             'de': 'Sensitivitäts Parameter (µ)',
         },
     'temp_bias_slider_name':
         {
-            'en': 'Temperature Bias (T_bias)',
+            'en': 'Temperature bias (T_bias)',
             'de': 'Temperatur Bias (T_bias)',
         },
     'temp_grad_slider_name':
         {
-            'en': 'Temp. Gradient (T_grad)',
+            'en': 'Temp. gradient (T_grad)',
             'de': 'Temp. Gradient (T_grad)',
         },
     'prcp_fac_slider_name':
         {
-            'en': 'Precipitation Factor (Prcp_fac)',
+            'en': 'Precipitation factor (Prcp_fac)',
             'de': 'Niederschlags Faktor (Prcp_fac)',
         },
     'temp_melt_slider_name':
@@ -116,17 +116,17 @@ mb_settings_tab_text = {
         },
     'temp_solid_slider_name':
         {
-            'en': 'T for solid Prcp only (T_solid)',
+            'en': 'T for solid prcp (T_solid)',
             'de': 'T für festen Niederschlag (T_solid)',
         },
     'temp_liquid_slider_name':
         {
-            'en': 'T for liquid Prcp only (T_liquid)',
+            'en': 'T for liquid prcp (T_liquid)',
             'de': 'T für flüssigen Niederschlag (T_liquid)',
         },
     'set_mb_settings_button_name':
         {
-            'en': 'Set MB Settings',
+            'en': 'Set MB settings',
             'de': 'MB Einst. festlegen',
         },
 }
@@ -189,32 +189,32 @@ base_climate_timeseries_plot_labels = {
         },
     'Hydro-Year':
         {
-            'en': 'Hydro-Year',
+            'en': 'Hydro-year',
             'de': 'Hydro-Jahr',
         },
     'Yearly Mean Prcp':
         {
-            'en': 'Yearly Mean Prcp',
+            'en': 'Yearly mean prcp',
             'de': 'Mittl. Jährl. Nieders.',
         },
     'Total Mean Prcp':
         {
-            'en': 'Total Mean Prcp',
+            'en': 'Total mean prcp',
             'de': 'Mittl. Totale Nieders.',
         },
     'Yearly Mean Temp':
         {
-            'en': 'Yearly Mean Temp',
+            'en': 'Yearly mean temp',
             'de': 'Mittl. Jährl. Temp',
         },
     'Total Mean Temp':
         {
-            'en': 'Total Mean Temp',
+            'en': 'Total mean temp',
             'de': 'Mittl. Totale Temp',
         },
     'set_period_buttons_name':
         {
-            'en': 'Set Period',
+            'en': 'Set period',
             'de': 'Periode setzen',
         },
 }
@@ -227,17 +227,17 @@ mb_curve_plot_labels = {
         },
     'm/year':
         {
-            'en': 'm/Year',
+            'en': 'm/year',
             'de': 'm/Jahr',
         },
     'm/month':
         {
-            'en': 'm/Month',
+            'en': 'm/month',
             'de': 'm/Monat',
         },
     'm/year or month':
         {
-            'en': 'm/Year or Month',
+            'en': 'm/year or month',
             'de': 'm/Jahr oder Monat',
         },
     'annual':
@@ -265,32 +265,32 @@ mb_curve_plot_labels = {
 tab_headings = {
     'Mass Balance Model':
         {
-            'en': 'Mass Balance Model',
-            'de': 'Massen-Bilanz Modell'
+            'en': 'Mass Balance',
+            'de': 'Massen-Bilanz'
         },
     'Compare Mass Balance Models':
         {
-            'en': 'Compare Mass Balance Models',
-            'de': 'Vergleiche Massen-Bilanz Modelle'
+            'en': 'Compare mass balances',
+            'de': 'Vergleiche Massen-Bilanz'
         },
     'Current Settings and Climograph':
         {
-            'en': 'Current Settings and Climograph',
+            'en': 'Current settings and climograph',
             'de': 'Aktuelle Einstellungen und Klimadiagramm'
         },
     'Base Climate Timeseries':
         {
-            'en': 'Base Climate Timeseries',
+            'en': 'Base climate timeseries',
             'de': 'Basis Klima Zeitreihe'
         },
     'Compare Climographs':
         {
-            'en': 'Compare Climographs',
+            'en': 'Compare climographs',
             'de': 'Vergleiche Klimadiagramme'
         },
     'Compare MB Settings':
         {
-            'en': 'Compare MB Settings',
+            'en': 'Compare MB settings',
             'de': 'Vergleiche MB Einstellungen'
         }
 }
