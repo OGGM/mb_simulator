@@ -54,13 +54,15 @@ climate_tab_text = {
                   ],
         },
     # must be the same order as defined in base_climate_names
-    'base_climate_file_suffix':
-        ['_Aus',
-         '_Bal',
-         '_Ech',
-         '_HEF',
-         '_Lew',
-         '_Wol',
+    # contains filesuffix of climate data and 
+    # ylims (oriented to actual glacier range)
+    'base_climate_meta_data':
+        [['_Aus', 0, 1600],
+         ['_Bal', 2100, 8000],
+         ['_Ech', 2000, 5000],
+         ['_HEF', 1300, 4600],
+         ['_Lew', 3500, 5500],
+         ['_Wol', 0, 3000]
         ],
     
     'y_start_slider_name':
