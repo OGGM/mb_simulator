@@ -93,8 +93,8 @@ mb_settings_tab_text = {
         },
     'mu_slider_name':
         {
-            'en': 'Sensitivity parameter (µ)',
-            'de': 'Sensitivitäts Parameter (µ)',
+            'en': 'Temp. Sensitivity (µ)',
+            'de': 'Temp. Sensitivität (µ)',
         },
     'temp_bias_slider_name':
         {
