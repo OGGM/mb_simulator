@@ -38,18 +38,18 @@ climate_tab_text = {
     # include new base climate names, do not forget to include file_suffix (base_climate_file_suffix)
     'base_climate_names':
         {
-            'en': ['Austre Broeggerbreen (Svalbard, polar)',  # RGI60-07.00504
-                   'Baltoro (Karakoram, continental)',        # RGI60-14.06794
+            'en': ['Baltoro (Karakoram, continental)',        # RGI60-14.06794
                    'Echaurren Norte (Andes, mediterranean)',  # RGI60-17.13715
                    'Hintereisferner (Alps, continental)',     # RGI60-11.00897
                    'Lewis (Mount Kenya, tropical)',           # RGI60-16.01638
+                   'Vestre Torellbreen (Svalbard, polar)',    # RGI60-07.00301
                    'Wolverine (Alaska, maritime)',            # RGI60-01.09162
                   ],
-            'de': ['Austre Broeggerbreen (Spitzbergen, polar)',
-                   'Baltoro (Karakoram, continental)',
+            'de': ['Baltoro (Karakoram, continental)',
                    'Echaurren Norte (Anden, mediterran)',
                    'Hintereisferner (Alpen, continental)',
                    'Lewis (Mount Kenya, tropisch)',
+                   'Vestre Torellbreen (Spitzbergen, polar)'
                    'Wolverine (Alaska, seeklima)',
                   ],
         },
@@ -57,11 +57,11 @@ climate_tab_text = {
     # contains filesuffix of climate data and 
     # ylims (oriented to actual glacier range)
     'base_climate_meta_data':
-        [['_Aus', 0, 1600],
-         ['_Bal', 2100, 8000],
+        [['_Bal', 2100, 8000],
          ['_Ech', 2000, 5000],
          ['_HEF', 1300, 4600],
          ['_Lew', 3500, 5500],
+         ['_Ves', 0, 1500],
          ['_Wol', 0, 3000]
         ],
     
