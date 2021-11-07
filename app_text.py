@@ -44,7 +44,7 @@ climate_tab_text = {
                    'Hintereisferner (Alps, continental)',     # RGI60-11.00897
                    'Lewis (Mount Kenya, tropical)',           # RGI60-16.01638
                    'Wolverine (Alaska, maritime)',            # RGI60-01.09162
-                  ],			
+                  ],
             'de': ['Austre Broeggerbreen (Spitzbergen, polar)',
                    'Baltoro (Karakoram, continental)',
                    'Echaurren Norte (Anden, mediterran)',
@@ -227,20 +227,20 @@ mb_curve_plot_labels = {
             'en': 'Height',
             'de': 'Höhe',
         },
-    'm/year':
+    'kg/m2_and_year':
         {
-            'en': 'm/year',
-            'de': 'm/Jahr',
+            'en': 'kg m⁻² year⁻¹',
+            'de': 'kg m⁻² Jahr⁻¹',
         },
-    'm/month':
+    'kg/m2_and_month':
         {
-            'en': 'm/month',
-            'de': 'm/Monat',
+            'en': 'kg m⁻² month⁻¹',
+            'de': 'kg m⁻² Monat⁻¹',
         },
-    'm/year or month':
+    'kg/m2_and_year_or_month':
         {
-            'en': 'm/year or month',
-            'de': 'm/Jahr oder Monat',
+            'en': 'kg m⁻² (year or month)⁻¹',
+            'de': 'kg m⁻² (Jahr oder Monat)⁻¹',
         },
     'annual':
         {
