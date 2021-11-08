@@ -139,10 +139,20 @@ general_plot_labels = {
             'en': 'Precipitation',
             'de': 'Niederschlag',
         },
+    'totalPrecipitation':
+        {
+            'en': 'total Prec.',
+            'de': 'totaler Nied.',
+        },
     'Temperature':
         {
             'en': 'Temperature',
             'de': 'Temperatur',
+        },
+    'meanTemperature':
+        {
+            'en': 'mean Temp.',
+            'de': 'mittlere Temp.',
         },
     'Month':
         {
