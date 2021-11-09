@@ -38,14 +38,16 @@ climate_tab_text = {
     # include new base climate names, do not forget to include file_suffix (base_climate_file_suffix)
     'base_climate_names':
         {
-            'en': ['Baltoro (Karakoram, continental)',        # RGI60-14.06794
+            'en': ['Artesonraju (Andes, tropical)',           # RGI60-16.02444
+                   'Baltoro (Karakoram, continental)',        # RGI60-14.06794
                    'Echaurren Norte (Andes, mediterranean)',  # RGI60-17.13715
                    'Hintereisferner (Alps, continental)',     # RGI60-11.00897
                    'Lewis (Mount Kenya, tropical)',           # RGI60-16.01638
                    'Vestre Torellbreen (Svalbard, polar)',    # RGI60-07.00301
                    'Wolverine (Alaska, maritime)',            # RGI60-01.09162
                   ],
-            'de': ['Baltoro (Karakoram, continental)',
+            'de': ['Artesonraju (Anden, tropisch)',
+                   'Baltoro (Karakoram, continental)',
                    'Echaurren Norte (Anden, mediterran)',
                    'Hintereisferner (Alpen, continental)',
                    'Lewis (Mount Kenya, tropisch)',
@@ -57,7 +59,8 @@ climate_tab_text = {
     # contains filesuffix of climate data and 
     # ylims (oriented to actual glacier range)
     'base_climate_meta_data':
-        [['_Bal', 2100, 8000],
+        [['_Art', 3500, 6000],
+         ['_Bal', 2100, 8000],
          ['_Ech', 2000, 5000],
          ['_HEF', 1300, 4600],
          ['_Lew', 3500, 5500],
