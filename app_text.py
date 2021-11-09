@@ -58,14 +58,15 @@ climate_tab_text = {
     # must be the same order as defined in base_climate_names
     # contains filesuffix of climate data and 
     # ylims (oriented to actual glacier range)
+    # hemisphere for hydrological year
     'base_climate_meta_data':
-        [['_Art', 3500, 6000],
-         ['_Bal', 2100, 8000],
-         ['_Ech', 2000, 5000],
-         ['_HEF', 1300, 4600],
-         ['_Lew', 3500, 5500],
-         ['_Ves', 0, 1500],
-         ['_Wol', 0, 3000]
+        [['_Art', 3500, 6000, 'sh'],
+         ['_Bal', 2100, 8000, 'nh'],
+         ['_Ech', 2000, 5000, 'sh'],
+         ['_HEF', 1300, 4600, 'nh'],
+         ['_Lew', 3500, 5500, 'sh'],
+         ['_Ves', 0, 1500, 'nh'],
+         ['_Wol', 0, 3000, 'nh']
         ],
     
     'y_start_slider_name':
