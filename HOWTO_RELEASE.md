@@ -6,7 +6,7 @@ git checkout main
 git pull
 ```
 2. Edit `version.py` to reflect the new version number (`v1.3`, `v1.4`, etc.)
-3. On the master branch, commit the release in git:
+3. On the main branch, commit the release in git:
 ```
 git commit -a -m 'Release v1.X'
 ```
@@ -14,7 +14,7 @@ git commit -a -m 'Release v1.X'
 ```
 git tag -a v1.X -m 'v1.X'
 ```
-5. Push your changes to master:
+5. Push your changes to main:
 ```
 git push origin main
 git push origin --tags
@@ -27,7 +27,7 @@ git push origin stable
 git checkout main
 ```
 6. Edit `version.py` to revert to the dev version (i.e. `v1.X+1.dev`: `v1.4.dev`, `v1.5.dev`, etc.)
-7. Commit your changes and push to master again:
+7. Commit your changes and push to main again:
 ```
 git commit -a -m 'Revert to dev version'
 git push origin main
