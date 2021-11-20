@@ -140,23 +140,23 @@ mb_settings_tab_text = {
 general_plot_labels = {
     'Precipitation':
         {
-            'en': 'Precipitation',
-            'de': 'Niederschlag',
+            'en': 'Monthly precipitation',
+            'de': 'Monatlicher Niederschlag',
         },
     'totalPrecipitation':
         {
-            'en': 'total Prec.',
-            'de': 'totaler Nied.',
+            'en': 'Annual prcp.',
+            'de': 'Jährl. Nied.',
         },
     'Temperature':
         {
-            'en': 'Temperature',
-            'de': 'Temperatur',
+            'en': 'Monthly temperature',
+            'de': 'Monatl. Temperatur',
         },
     'meanTemperature':
         {
-            'en': 'mean Temp.',
-            'de': 'mittlere Temp.',
+            'en': 'Annual temp.',
+            'de': 'Jährl. Temp.',
         },
     'Month':
         {
@@ -182,13 +182,13 @@ general_plot_labels = {
 climograph_plot_labels = {
     'Height':
         {
-            'en': 'Height',
-            'de': 'Höhe',
+            'en': 'Reference elevation',
+            'de': 'Referenz Höhe',
         },
     'Period':
         {
-            'en': 'Period',
-            'de': 'Periode',
+            'en': 'Climate period',
+            'de': 'Klimaperiode',
         },
     'to':
         {
@@ -210,23 +210,23 @@ base_climate_timeseries_plot_labels = {
         },
     'Yearly Mean Prcp':
         {
-            'en': 'Yearly mean prcp',
-            'de': 'Mittl. Jährl. Nieders.',
+            'en': 'Annual prcp',
+            'de': 'Jährl. Nied.',
         },
     'Total Mean Prcp':
         {
-            'en': 'Total mean prcp',
-            'de': 'Mittl. Totale Nieders.',
+            'en': 'Period avg prcp',
+            'de': 'Mittl. Nied. Periode',
         },
     'Yearly Mean Temp':
         {
-            'en': 'Yearly mean temp',
-            'de': 'Mittl. Jährl. Temp',
+            'en': 'Annual temp',
+            'de': 'Jährl. Temp.',
         },
     'Total Mean Temp':
         {
-            'en': 'Total mean temp',
-            'de': 'Mittl. Totale Temp',
+            'en': 'Period avg temp',
+            'de': 'Mittl. Temp. Periode',
         },
     'set_period_buttons_name':
         {
@@ -238,7 +238,7 @@ base_climate_timeseries_plot_labels = {
 mb_curve_plot_labels = {
     'Height':
         {
-            'en': 'Height',
+            'en': 'Elevation',
             'de': 'Höhe',
         },
     'kg/m2_and_year':
