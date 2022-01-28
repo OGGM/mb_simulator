@@ -8,7 +8,7 @@
 
 ## Authors
 
-[Patrick Schmitt](https://github.com/pat-schmitt)
+[Patrick Schmitt](https://github.com/pat-schmitt) and [Fabien Maussion](https://fabienmaussion.info/).
 
 Thanks to the [HoloViz](https://holoviz.org) ecosystem for their awesome tools!
 
